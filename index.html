@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cool-zimo — Projects</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f6f8fa;color:#1f2328;line-height:1.6}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,#24292f,#3b4654);color:#fff;padding:64px 0 56px}
+h1{font-size:2.4rem;font-weight:700;letter-spacing:-.5px}
+.sub{color:#b8c2cc;margin-top:10px;font-size:1.05rem}
+.meta{margin-top:22px;display:flex;gap:10px;flex-wrap:wrap}
+a.btn{display:inline-flex;align-items:center;gap:7px;background:#fff;color:#24292f;padding:9px 17px;border-radius:7px;text-decoration:none;font-weight:600;font-size:.9rem}
+a.btn.ghost{background:transparent;color:#fff;border:1px solid #57606a}
+main{padding:44px 0 60px}
+h2{font-size:1.15rem;margin-bottom:18px;color:#57606a;font-weight:600;letter-spacing:.3px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
+.card{background:#fff;border:1px solid #d8dee4;border-radius:10px;padding:20px;text-decoration:none;color:inherit;display:block;transition:.15s}
+.card:hover{border-color:#0969da;transform:translateY(-2px);box-shadow:0 5px 16px rgba(9,105,218,.11)}
+.card h3{font-size:1.05rem;display:flex;align-items:center;gap:8px}
+.card h3 svg{width:19px;height:19px;flex:none;stroke:#0969da;fill:none;stroke-width:1.8}
+.card p{color:#59636e;font-size:.91rem;margin-top:8px}
+.tags{margin-top:13px;display:flex;gap:6px;flex-wrap:wrap}
+.tag{background:#eff3f6;color:#57606a;font-size:.74rem;padding:3px 9px;border-radius:20px;font-family:ui-monospace,monospace}
+.lead{grid-column:1/-1;border-color:#0969da;background:linear-gradient(180deg,#f6faff,#fff)}
+.lead h3{font-size:1.25rem}
+footer{border-top:1px solid #d8dee4;padding:26px 0;color:#6e7781;font-size:.86rem;text-align:center}
+footer a{color:#0969da;text-decoration:none}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>Cool-zimo</h1>
+<div class="sub">Independent developer — turning GitHub into an app platform.</div>
+<div class="meta">
+<a class="btn" href="https://github.com/Cool-zimo"><svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M12 .3a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7 0-.7 0-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.2-3.1-.1-.4-.5-1.7.1-3.5 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0C17 4.6 18 4.9 18 4.9c.6 1.8.2 3.1.1 3.5a4.5 4.5 0 011.2 3.1c0 4.7-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0012 .3"/></svg>GitHub</a>
+<a class="btn ghost" href="https://cool-zimo.github.io/github_drive/">Launch GitHub Drive</a>
+</div>
+</div></header>
+
+<main><div class="wrap">
+<h2>Projects</h2>
+<div class="grid">
+
+<a class="card lead" href="https://github.com/Cool-zimo/github_drive">
+<h3><svg viewBox="0 0 24 24"><path d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>GitHub Drive</h3>
+<p>A virtual file system on top of the GitHub API. Turns one or more repositories into a unified cloud drive — file management, repository linking, one-click sharing and a built-in reader. Runs entirely in the browser with no backend of its own.</p>
+<div class="tags"><span class="tag">JavaScript</span><span class="tag">GitHub REST API</span><span class="tag">Cloudflare Workers</span><span class="tag">OAuth Device Flow</span><span class="tag">MIT</span></div>
+</a>
+
+<a class="card" href="https://github.com/Cool-zimo/al">
+<h3><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4z"/><path d="M8 10h8M8 14h5"/></svg>AnyLearn</h3>
+<p>Learning material search and organisation.</p>
+<div class="tags"><span class="tag">Web</span></div>
+</a>
+
+<a class="card" href="https://github.com/Cool-zimo/cangshu">
+<h3><svg viewBox="0 0 24 24"><path d="M4 4h7v16H4z"/><path d="M13 4h7v16h-7"/></svg>Cangshu</h3>
+<p>Book collection tracking.</p>
+<div class="tags"><span class="tag">Web</span></div>
+</a>
+
+<a class="card" href="https://github.com/Cool-zimo/FaceHub">
+<h3><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 10h.01M15 10h.01M9 15c1.5 1.5 4.5 1.5 6 0"/></svg>FaceHub</h3>
+<p>Face and image hub.</p>
+<div class="tags"><span class="tag">Web</span></div>
+</a>
+
+<a class="card" href="https://github.com/Cool-zimo/HTTPto">
+<h3><svg viewBox="0 0 24 24"><path d="M4 12h16"/><path d="M14 6l6 6-6 6"/></svg>HTTPto</h3>
+<p>HTTP request tooling and inspection.</p>
+<div class="tags"><span class="tag">Web</span></div>
+</a>
+
+<a class="card" href="https://github.com/Cool-zimo/coverfit">
+<h3><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 9h16"/></svg>coverfit</h3>
+<p>Cover image fitting utility.</p>
+<div class="tags"><span class="tag">Web</span></div>
+</a>
+
+<a class="card" href="https://github.com/Cool-zimo/week-of-week">
+<h3><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Week of Week</h3>
+<p>Weekly planning and records.</p>
+<div class="tags"><span class="tag">Web</span></div>
+</a>
+
+<a class="card" href="https://github.com/Cool-zimo/ghpy">
+<h3><svg viewBox="0 0 24 24"><path d="M8 6l-4 6 4 6"/><path d="M16 6l4 6-4 6"/></svg>gdpy</h3>
+<p>Python tooling around GitHub Drive.</p>
+<div class="tags"><span class="tag">Python</span></div>
+</a>
+
+</div>
+</div></main>
+
+<footer><div class="wrap">
+All projects are open source on <a href="https://github.com/Cool-zimo">GitHub</a> · Hosted with GitHub Pages
+</div></footer>
+</body></html>
